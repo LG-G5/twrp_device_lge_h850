@@ -34,7 +34,8 @@ TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_CONFIG := twrp_defconfig
 TARGET_KERNEL_DEVICE_DEFCONFIG := device_lge_h850
 
-TARGET_PREBUILT_KERNEL := device/lge/h850/kernel
+TARGET_PREBUILT_KERNEL := device/lge/h850/prebuilt/Image.lz4-dtb
+BOARD_KERNEL_IMAGE_NAME := Image.lz4-dtb
 
 # Boot image
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 user_debug=31 msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 cma=32M@0-0xffffffff androidboot.hardware=h1 androidboot.bootdevice=624000.ufshc androidboot.selinux=permissive quiet
