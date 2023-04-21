@@ -5,7 +5,8 @@ Add to `.repo/local_manifests/h850.xml`:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project path="device/lge/h850" name="android_device_lge_h850" remote="TeamWin" revision="android-7.1" />
+	<remote name="LG-G5" fetch="https://github.com/LG-G5"/>
+	<project path="device/lge/h850" name="twrp_device_lge_h850" remote="LG-G5" revision="android-7.1" />
 </manifest>
 ```
 
