@@ -30,3 +30,6 @@ PRODUCT_MODEL := LG-H850
 PRODUCT_NAME := omni_h850
 PRODUCT_BRAND := lge
 PRODUCT_MANUFACTURER := LGE
+
+# Allow missing dependencies
+export ALLOW_MISSING_DEPENDENCIES = true
